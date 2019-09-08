@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class jump : MonoBehaviour
+public class Jump : MonoBehaviour
 {
     private Animation anim;
     private Rigidbody2D rig;
