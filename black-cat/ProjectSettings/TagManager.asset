@@ -3,7 +3,16 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - diamond
+  - circle
+  - Ground
+  - car
+  - die
+  - th
+  - win
+  - fx
+  - tb
   layers:
   - Default
   - TransparentFX
@@ -13,8 +22,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - player
+  - track
   - 
   - 
   - 
