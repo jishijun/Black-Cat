@@ -179,16 +179,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9079060183190719630, guid: 2816200588fedbf4a848edbb491c8e5c,
-        type: 3}
-      propertyPath: m_Mass
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 9079060183190719630, guid: 2816200588fedbf4a848edbb491c8e5c,
-        type: 3}
-      propertyPath: m_Simulated
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 9079060183190719616, guid: 2816200588fedbf4a848edbb491c8e5c,
         type: 3}
       propertyPath: Map
@@ -204,6 +194,16 @@ PrefabInstance:
       propertyPath: s
       value: 
       objectReference: {fileID: 770449858}
+    - target: {fileID: 9079060183190719630, guid: 2816200588fedbf4a848edbb491c8e5c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9079060183190719630, guid: 2816200588fedbf4a848edbb491c8e5c,
+        type: 3}
+      propertyPath: m_Simulated
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2816200588fedbf4a848edbb491c8e5c, type: 3}
 --- !u!1001 &121466644
@@ -4205,7 +4205,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: f594cb7a6c775244c9f3631815b8b447, type: 3}
+  m_Sprite: {fileID: 21300000, guid: bd8ffb450475db64e8c50299554d42a7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4247,7 +4247,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.56, y: 0.32}
+    oldSize: {x: 10.24, y: 2.56}
     newSize: {x: 2.56, y: 0.32}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -5679,6 +5679,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BG
       objectReference: {fileID: 0}
+    - target: {fileID: 6453866065871803209, guid: 5d6bc8e1f5a6b49488c42694d15fa429,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6453866065545360516, guid: 5d6bc8e1f5a6b49488c42694d15fa429,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5738,11 +5743,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.x
       value: 76.24
-      objectReference: {fileID: 0}
-    - target: {fileID: 6453866065871803209, guid: 5d6bc8e1f5a6b49488c42694d15fa429,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 6453866066331002005, guid: 5d6bc8e1f5a6b49488c42694d15fa429,
         type: 3}
