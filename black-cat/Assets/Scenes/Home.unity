@@ -1051,7 +1051,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u7EC4\u957F\uFF1A\u5409\u4E16\u519B\n\u7EC4\u5458\uFF1A\u4F59\u946B\u79D1\n
+  m_Text: "group 02\n\u7EC4\u957F\uFF1A\u5409\u4E16\u519B\n\u7EC4\u5458\uFF1A\u4F59\u946B\u79D1\n
     \        \u5218\u6D69\u6770\n         \u5C48\u6C38\u6F6E"
 --- !u!222 &1272471388
 CanvasRenderer:
